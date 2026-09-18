@@ -1,5 +1,4 @@
 {
-  "name": "mrem-college-attendance",
   "framework": "nextjs",
   "crons": [
     {

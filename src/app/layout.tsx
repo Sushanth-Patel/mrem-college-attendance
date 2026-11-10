@@ -35,6 +35,12 @@ export default function RootLayout({
     <html lang="en" className={inter.variable}>
       <head>
         <link rel="manifest" href="/manifest.json" />
+        {/* CloudWatch Pulse Privacy-First Live Telemetry (Zero Cookies, Zero PII, OWASP Safe) */}
+        <script
+          defer
+          src="https://cloudwatch-pulse-monitor.netlify.app/tracker.js"
+          data-site="mrem-college-attendance.vercel.app"
+        />
       </head>
       <body>{children}</body>
     </html>
